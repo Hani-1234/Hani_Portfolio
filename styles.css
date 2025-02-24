@@ -106,3 +106,17 @@ html {
 .dark-mode a {
     color: #4db8ff;
 }
+/* Profile Picture */
+#profile {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #4db8ff;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
